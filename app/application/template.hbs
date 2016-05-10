@@ -11,12 +11,12 @@
     <button {{action 'filterTo' ''}}>x</button>
 </div>
 
-{{#liquid-bind filteredData as |currentData|}}
-    <div class="container">
+<div class="container">
+    {{#liquid-bind filteredData as |currentData|}}
             {{#each currentData as |datum|}}
                 <div class="datum" data-id="{{datum}}">
                     {{datum}}
                 </div>
             {{/each}}
-    </div>
-{{/liquid-bind}}
+    {{/liquid-bind}}
+</div>
