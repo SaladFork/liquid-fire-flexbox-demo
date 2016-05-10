@@ -1,0 +1,34 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.controls {
+    display: flex;
+
+    padding: 20px;
+    margin: 20px;
+    background-color: #eee
+}
+
+.controls button {
+    flex: 1;
+
+    height: 40px;
+
+    font-size: 14px;
+}
+
+.container {
+    text-align: center;
+}
+
+.datum {
+    display: inline-block;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    font-size: 28px;
+    border: 1px solid silver;
+}

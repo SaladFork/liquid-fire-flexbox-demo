@@ -1,0 +1,22 @@
+<div class="controls">
+    <button {{action 'filterTo' 1}}>1</button>
+    <button {{action 'filterTo' 2}}>2</button>
+    <button {{action 'filterTo' 3}}>3</button>
+    <button {{action 'filterTo' 4}}>4</button>
+    <button {{action 'filterTo' 5}}>5</button>
+    <button {{action 'filterTo' 6}}>6</button>
+    <button {{action 'filterTo' 7}}>7</button>
+    <button {{action 'filterTo' 8}}>8</button>
+    <button {{action 'filterTo' 9}}>9</button>
+    <button {{action 'filterTo' ''}}>x</button>
+</div>
+
+{{#liquid-bind filteredData as |currentData|}}
+    <div class="container">
+            {{#each currentData as |datum|}}
+                <div class="datum" data-id="{{datum}}">
+                    {{datum}}
+                </div>
+            {{/each}}
+    </div>
+{{/liquid-bind}}
