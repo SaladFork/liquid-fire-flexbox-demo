@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'test-liquid-fire-collections',
+    modulePrefix: 'liquid-fire-flexbox-demo',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

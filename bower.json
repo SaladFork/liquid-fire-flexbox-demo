@@ -1,5 +1,5 @@
 {
-  "name": "test-liquid-fire-collections",
+  "name": "liquid-fire-flexbox-demo",
   "dependencies": {
     "ember": "1.13.12",
     "ember-cli-shims": "0.0.6",
